@@ -31,9 +31,9 @@ The same user also compiled a list of win-loss records for [these duels](https:/
 go run main.go 
 ```
 
-## Screenshots
+## Results
 
-A screenshot of the expected results:
+A screenshot of the results:
 
 ![results](screenshots/results.png)
 
