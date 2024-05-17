@@ -16,5 +16,5 @@ type Duel struct {
 	Winner        string   `json:"winner"`
 	IsMulti       bool     `json:"isMulti"`
 	MultiDuelists []string `json:"multiDuelists"`
-	Youtube       string   `json:"youtube"`
+	YouTube       string   `json:"youtube"`
 }
