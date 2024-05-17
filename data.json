@@ -1,0 +1,702 @@
+[
+  {
+    "title": "Qui-Gon Jinn VS Darth Maul",
+    "battler": "Qui-Gon Jinn",
+    "versus": "Darth Maul",
+    "location": "Tatooine",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/JMlUmUlu9M0"
+  },
+  {
+    "title": "Qui-Gon Jinn and Obi-Wan Kenobi VS Darth Maul",
+    "battler": "Qui-Gon Jinn",
+    "versus": "Darth Maul",
+    "location": "Naboo",
+    "winner": "Darth Maul",
+    "isMulti": true,
+    "multiDuelists": ["Qui-Gon Jinn", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/qo__6MZIg6U"
+  },
+  {
+    "title": "Qui-Gon Jinn and Obi-Wan Kenobi VS Darth Maul",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Darth Maul",
+    "location": "Naboo",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": true,
+    "multiDuelists": ["Qui-Gon Jinn", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/qo__6MZIg6U"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Geonosis",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/10PjRE_MOVA"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Count Dooku",
+    "location": "Geonosis",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/10PjRE_MOVA"
+  },
+  {
+    "title": "Yoda VS Count Dooku",
+    "battler": "Yoda",
+    "versus": "Count Dooku",
+    "location": "Geonosis",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/wg1ydN42ukY"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
+    "battler": "Anakin Skywalker",
+    "versus": "Asajj Ventress",
+    "location": "Christophsis",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/qUJ5zAK4EYE"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Asajj Ventress",
+    "location": "Christophsis",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/qUJ5zAK4EYE"
+  },
+  {
+    "title": "Ahsoka Tano VS Asajj Ventress",
+    "battler": "Ahsoka Tano",
+    "versus": "Asajj Ventress",
+    "location": "Teth",
+    "winner": "Ahsoka Tano",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/YUJjsb6meIQ"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS Asajj Ventress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Asajj Ventress",
+    "location": "Teth",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/7q2TNPxSxj0"
+  },
+  {
+    "title": "Anakin Skywalker VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Tatooine",
+    "winner": "Anakin Skywalker",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/5zqgz6zWeCo"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Malevolence",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/8ayXjElMRPc"
+  },
+  {
+    "title": "Ahsoka Tano VS General Grievous",
+    "battler": "Ahsoka Tano",
+    "versus": "General Grievous",
+    "location": "Seperatist Listening Post",
+    "winner": "General Grievous",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/lrturFX5XY4"
+  },
+  {
+    "title": "Luminara Unduli and Ahsoka Tano VS Asajj Ventress",
+    "battler": "Luminara Unduli",
+    "versus": "Asajj Ventress",
+    "location": "The Tranquility",
+    "winner": "Asajj Ventress",
+    "isMulti": true,
+    "multiDuelists": ["Luminara Unduli", "Ahsoka Tano"],
+    "youtube": "https://youtu.be/M6Ry7uwU2Ic"
+  },
+  {
+    "title": "Luminara Unduli and Ahsoka Tano VS Asajj Ventress",
+    "battler": "Ahsoka Tano",
+    "versus": "Asajj Ventress",
+    "location": "The Tranquility",
+    "winner": "Asajj Ventress",
+    "isMulti": true,
+    "multiDuelists": ["Luminara Unduli", "Ahsoka Tano"],
+    "youtube": "https://youtu.be/M6Ry7uwU2Ic"
+  },
+  {
+    "title": "Nahdar Vebb VS General Grievous",
+    "battler": "Nahdar Vebb",
+    "versus": "General Grievous",
+    "location": "The Lair of Grievous",
+    "winner": "General Grievous",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/ihC2vYQj-6w"
+  },
+  {
+    "title": "Kit Fisto VS General Grievous",
+    "battler": "Kit Fisto",
+    "versus": "General Grievous",
+    "location": "The Lair of Grievous",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/R-t9GlT9qmk"
+  },
+  {
+    "title": "Ahsoka Tano VS Jocasta Nu (Imposter)",
+    "battler": "Ahsoka Tano",
+    "versus": "Jocasta Nu",
+    "location": "Jedi Temple",
+    "winner": "Ahsoka Tano",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/SPAqVaYYess"
+  },
+  {
+    "title": "Ahsoka Tano VS Barriss Offee (Possessed)",
+    "battler": "Ahsoka Tano",
+    "versus": "Barriss Offee",
+    "location": "Republic Cruiser",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/P1H9FjrDBAA"
+  },
+  {
+    "title": "Eeth Koth VS General Grievous",
+    "battler": "Eeth Koth",
+    "versus": "General Grievous",
+    "location": "Separatist Cruiser",
+    "winner": "General Grievous",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/jLLTE0cdroE"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Separatist Cruiser",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/zCj2hPdRGT0?t=265"
+  },
+  {
+    "title": "Adi Galia VS General Grievous",
+    "battler": "Adi Galia",
+    "versus": "General Grievous",
+    "location": "Separatist Cruiser",
+    "winner": "General Grievous",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/-XQjY_GI8hw"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Saleucami",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/zCj2hPdRGT0?t=300"
+  },
+  {
+    "title": "Tera Sinube VS Cassie Cryar",
+    "battler": "Tera Sinube",
+    "versus": "Cassie Cryar",
+    "location": "Coruscant",
+    "winner": "Tera Sinube",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/dTZUQk0y0LQ"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS Pre Vizsla",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Pre Vizsla",
+    "location": "Concordia",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/W7zZGTmghrE"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Kamino",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/zCj2hPdRGT0?t=361"
+  },
+  {
+    "title": "Anakin Skywalker VS Asajj Ventress",
+    "battler": "Anakin Skywalker",
+    "versus": "Asajj Ventress",
+    "location": "Kamino",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/FZmltPampkg"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS Cad Bane",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Cad Bane",
+    "location": "Teth",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/dSO-gN8aN_E"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
+    "battler": "Anakin Skywalker",
+    "versus": "Asajj Ventress",
+    "location": "Separatist Cruiser",
+    "winner": "Anakin Skywalker",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/tpLiiD1Gsjk"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Asajj Ventress",
+    "location": "Separatist Cruiser",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/tpLiiD1Gsjk"
+  },
+  {
+    "title": "Asajj Ventress and 2 Nightsisters VS Count Dooku",
+    "battler": "Asajj Ventress",
+    "versus": "Count Dooku",
+    "location": "Serrano",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Asajj Ventress", "2 Nightsisters"],
+    "youtube": "https://youtu.be/yyiDDQYPUIs"
+  },
+  {
+    "title": "Asajj Ventress and 2 Nightsisters VS Count Dooku",
+    "battler": "2 Nightsisters",
+    "versus": "Count Dooku",
+    "location": "Serrano",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Asajj Ventress", "2 Nightsisters"],
+    "youtube": "https://youtu.be/yyiDDQYPUIs"
+  },
+  {
+    "title": "Asajj Ventress and Savage Opress VS Count Dooku",
+    "battler": "Asajj Ventress",
+    "versus": "Count Dooku",
+    "location": "Separatist ship above Toydaria",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Asajj Ventress", "Savage Opress"],
+    "youtube": "https://youtu.be/7s3x8ox2ToE"
+  },
+  {
+    "title": "Asajj Ventress and Savage Opress VS Count Dooku",
+    "battler": "Savage Opress",
+    "versus": "Count Dooku",
+    "location": "Separatist ship above Toydaria",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Asajj Ventress", "Savage Opress"],
+    "youtube": "https://youtu.be/7s3x8ox2ToE"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Savage Opress",
+    "battler": "Anakin Skywalker",
+    "versus": "Savage Opress",
+    "location": "Toydaria",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/wRSkTb2bjsY"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Savage Opress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Savage Opress",
+    "location": "Toydaria",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/wRSkTb2bjsY"
+  },
+  {
+    "title": "Anakin Skywalker VS Ahsoka Tano (Possessed)",
+    "battler": "Anakin Skywalker",
+    "versus": "Ahsoka Tano",
+    "location": "Mortis",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/_v0hp0caNEQ"
+  },
+  {
+    "title": "Anakin Skywalker VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Naboo",
+    "winner": "Count Dooku",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/DOZ4SpuOmH4"
+  },
+  {
+    "title": "Anakin Skywalker VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Zygerria",
+    "winner": "Count Dooku",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/hVwkyWgzvB8"
+  },
+  {
+    "title": "Ahsoka Tano VS Pre Vizsla",
+    "battler": "Ahsoka Tano",
+    "versus": "Pre Vizsla",
+    "location": "Carlac",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/tZ9o47lvy40"
+  },
+  {
+    "title": "Anakin Skywalker VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Naboo",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/eQATBFIZ13o"
+  },
+  {
+    "title": "Asajj Ventress VS General Grievous",
+    "battler": "Asajj Ventress",
+    "versus": "General Grievous",
+    "location": "Dathomir",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/TWGYnSUDdRY"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Darth Maul",
+    "location": "Goji-DF",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Asajj Ventress", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/NYv_gHAKp1I"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Savage Opress",
+    "location": "Goji-DF",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Asajj Ventress", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/NYv_gHAKp1I"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
+    "battler": "Asajj Ventress",
+    "versus": "Darth Maul",
+    "location": "Goji-DF",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Asajj Ventress", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/NYv_gHAKp1I"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
+    "battler": "Asajj Ventress",
+    "versus": "Savage Opress",
+    "location": "Goji-DF",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Asajj Ventress", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/NYv_gHAKp1I"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Separatist Ship",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/zCj2hPdRGT0?t=397"
+  },
+  {
+    "title": "Ahsoka Tano VS General Grievous",
+    "battler": "Ahsoka Tano",
+    "versus": "General Grievous",
+    "location": "Florrum",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/CK5vWgib5Fk"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Darth Maul",
+    "location": "Florrum",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Adi Gallia", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/aE_CVWMWK74"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Savage Opress",
+    "location": "Florrum",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Adi Gallia", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/aE_CVWMWK74"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
+    "battler": "Adi Gallia",
+    "versus": "Darth Maul",
+    "location": "Florrum",
+    "winner": "Darth Maul",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Adi Gallia", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/aE_CVWMWK74"
+  },
+  {
+    "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
+    "battler": "Adi Gallia",
+    "versus": "Savage Opress",
+    "location": "Florrum",
+    "winner": "Savage Opress",
+    "isMulti": true,
+    "multiDuelists": ["Obi-Wan Kenobi", "Adi Gallia", "Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/aE_CVWMWK74"
+  },
+  {
+    "title": "Pre Vizsla VS Darth Maul",
+    "battler": "Pre Vizsla",
+    "versus": "Darth Maul",
+    "location": "Mandalore",
+    "winner": "Darth Maul",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/nE1Cv7lM0YA"
+  },
+  {
+    "title": "Darth Maul and Savage Opress VS Darth Sidious",
+    "battler": "Darth Maul",
+    "versus": "Darth Sidious",
+    "location": "Mandalore",
+    "winner": "Darth Sidious",
+    "isMulti": true,
+    "multiDuelists": ["Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/QaVYu0LPsSU"
+  },
+  {
+    "title": "Darth Maul and Savage Opress VS Darth Sidious",
+    "battler": "Savage Opress",
+    "versus": "Darth Sidious",
+    "location": "Mandalore",
+    "winner": "Darth Sidious",
+    "isMulti": true,
+    "multiDuelists": ["Darth Maul", "Savage Opress"],
+    "youtube": "https://youtu.be/QaVYu0LPsSU"
+  },
+  {
+    "title": "Ahsoka Tano VS Barriss Offee (Disguised)",
+    "battler": "Ahsoka Tano",
+    "versus": "Barriss Offee",
+    "location": "Coruscant",
+    "winner": "Ahsoka Tano",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/hLzYiRXZBbc"
+  },
+  {
+    "title": "Anakin Skywalker VS Barriss Offee",
+    "battler": "Anakin Skywalker",
+    "versus": "Barriss Offee",
+    "location": "Jedi Temple",
+    "winner": "Anakin Skywalker",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/WU4FsiI_fY4"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Oba Diah",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/OcXaicGvcvA"
+  },
+  {
+    "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Count Dooku",
+    "location": "Oba Diah",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/OcXaicGvcvA"
+  },
+  {
+    "title": "Yoda and Anakin Skywalker VS Darth Sidious",
+    "battler": "Yoda",
+    "versus": "Darth Sidious",
+    "location": "Force Vision",
+    "winner": "Draw",
+    "isMulti": true,
+    "multiDuelists": ["Yoda", "Anakin Skywalker"],
+    "youtube": "https://youtu.be/ctN5s8z3E8E"
+  },
+  {
+    "title": "Yoda and Anakin Skywalker VS Darth Sidious",
+    "battler": "Anakin Skywalker",
+    "versus": "Darth Sidious",
+    "location": "Force Vision",
+    "winner": "Darth Sidious",
+    "isMulti": true,
+    "multiDuelists": ["Yoda", "Anakin Skywalker"],
+    "youtube": "https://youtu.be/ctN5s8z3E8E"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Utapau",
+    "winner": "Draw",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/zCj2hPdRGT0?t=483"
+  },
+  {
+    "title": "Anakin Skywalker VS Count Dooku",
+    "battler": "Anakin Skywalker",
+    "versus": "Count Dooku",
+    "location": "Invisible Hand",
+    "winner": "Anakin Skywalker",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/HLlf5bC1wxg"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS Count Dooku",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Count Dooku",
+    "location": "Invisible Hand",
+    "winner": "Count Dooku",
+    "isMulti": true,
+    "multiDuelists": ["Anakin Skywalker", "Obi-Wan Kenobi"],
+    "youtube": "https://youtu.be/HLlf5bC1wxg"
+  },
+  {
+    "title": "Ahsoka Tano VS Darth Maul",
+    "battler": "Ahsoka Tano",
+    "versus": "Darth Maul",
+    "location": "Mandalore",
+    "winner": "Ahsoka Tano",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/wwhjsKqJ-Uc"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS General Grievous",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "General Grievous",
+    "location": "Utapau",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/xaBiygfkudk"
+  },
+  {
+    "title": "Mace Windu and Kit Fisto VS Darth Sidious",
+    "battler": "Mace Windu",
+    "versus": "Darth Sidious",
+    "location": "Chancellor’s Office",
+    "winner": "Darth Sidious",
+    "isMulti": true,
+    "multiDuelists": ["Mace Windu", "Kit Fisto"],
+    "youtube": "https://youtu.be/Zv4oiZ8aoCM"
+  },
+  {
+    "title": "Mace Windu and Kit Fisto VS Darth Sidious",
+    "battler": "Kit Fisto",
+    "versus": "Darth Sidious",
+    "location": "Chancellor’s Office",
+    "winner": "Darth Sidious",
+    "isMulti": true,
+    "multiDuelists": ["Mace Windu", "Kit Fisto"],
+    "youtube": "https://youtu.be/Zv4oiZ8aoCM"
+  },
+  {
+    "title": "Yoda VS Darth Sidious",
+    "battler": "Yoda",
+    "versus": "Darth Sidious",
+    "location": "Senate Chambers",
+    "winner": "Darth Sidious",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/Hw7Xxi-TxkQ"
+  },
+  {
+    "title": "Obi-Wan Kenobi VS Anakin Skywalker (Darth Vader)",
+    "battler": "Obi-Wan Kenobi",
+    "versus": "Anakin Skywalker",
+    "location": "Mustafar",
+    "winner": "Obi-Wan Kenobi",
+    "isMulti": false,
+    "multiDuelists": [],
+    "youtube": "https://youtu.be/S3OtoO5zjjU"
+  }
+]
