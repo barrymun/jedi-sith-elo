@@ -1,7 +1,7 @@
 [
   {
     "title": "Qui-Gon Jinn VS Darth Maul",
-    "battler": "Qui-Gon Jinn",
+    "duelist": "Qui-Gon Jinn",
     "versus": "Darth Maul",
     "location": "Tatooine",
     "winner": "Draw",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Qui-Gon Jinn and Obi-Wan Kenobi VS Darth Maul",
-    "battler": "Qui-Gon Jinn",
+    "duelist": "Qui-Gon Jinn",
     "versus": "Darth Maul",
     "location": "Naboo",
     "winner": "Darth Maul",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Qui-Gon Jinn and Obi-Wan Kenobi VS Darth Maul",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Darth Maul",
     "location": "Naboo",
     "winner": "Obi-Wan Kenobi",
@@ -31,7 +31,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Geonosis",
     "winner": "Count Dooku",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Count Dooku",
     "location": "Geonosis",
     "winner": "Count Dooku",
@@ -51,7 +51,7 @@
   },
   {
     "title": "Yoda VS Count Dooku",
-    "battler": "Yoda",
+    "duelist": "Yoda",
     "versus": "Count Dooku",
     "location": "Geonosis",
     "winner": "Draw",
@@ -61,7 +61,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Asajj Ventress",
     "location": "Christophsis",
     "winner": "Draw",
@@ -71,7 +71,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Asajj Ventress",
     "location": "Christophsis",
     "winner": "Draw",
@@ -81,7 +81,7 @@
   },
   {
     "title": "Ahsoka Tano VS Asajj Ventress",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Asajj Ventress",
     "location": "Teth",
     "winner": "Ahsoka Tano",
@@ -91,7 +91,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS Asajj Ventress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Asajj Ventress",
     "location": "Teth",
     "winner": "Draw",
@@ -101,7 +101,7 @@
   },
   {
     "title": "Anakin Skywalker VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Tatooine",
     "winner": "Anakin Skywalker",
@@ -111,7 +111,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Malevolence",
     "winner": "Draw",
@@ -121,7 +121,7 @@
   },
   {
     "title": "Ahsoka Tano VS General Grievous",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "General Grievous",
     "location": "Seperatist Listening Post",
     "winner": "General Grievous",
@@ -131,7 +131,7 @@
   },
   {
     "title": "Luminara Unduli and Ahsoka Tano VS Asajj Ventress",
-    "battler": "Luminara Unduli",
+    "duelist": "Luminara Unduli",
     "versus": "Asajj Ventress",
     "location": "The Tranquility",
     "winner": "Asajj Ventress",
@@ -141,7 +141,7 @@
   },
   {
     "title": "Luminara Unduli and Ahsoka Tano VS Asajj Ventress",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Asajj Ventress",
     "location": "The Tranquility",
     "winner": "Asajj Ventress",
@@ -151,7 +151,7 @@
   },
   {
     "title": "Nahdar Vebb VS General Grievous",
-    "battler": "Nahdar Vebb",
+    "duelist": "Nahdar Vebb",
     "versus": "General Grievous",
     "location": "The Lair of Grievous",
     "winner": "General Grievous",
@@ -161,7 +161,7 @@
   },
   {
     "title": "Kit Fisto VS General Grievous",
-    "battler": "Kit Fisto",
+    "duelist": "Kit Fisto",
     "versus": "General Grievous",
     "location": "The Lair of Grievous",
     "winner": "Draw",
@@ -171,7 +171,7 @@
   },
   {
     "title": "Ahsoka Tano VS Jocasta Nu (Imposter)",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Jocasta Nu",
     "location": "Jedi Temple",
     "winner": "Ahsoka Tano",
@@ -181,7 +181,7 @@
   },
   {
     "title": "Ahsoka Tano VS Barriss Offee (Possessed)",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Barriss Offee",
     "location": "Republic Cruiser",
     "winner": "Draw",
@@ -191,7 +191,7 @@
   },
   {
     "title": "Eeth Koth VS General Grievous",
-    "battler": "Eeth Koth",
+    "duelist": "Eeth Koth",
     "versus": "General Grievous",
     "location": "Separatist Cruiser",
     "winner": "General Grievous",
@@ -201,7 +201,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Separatist Cruiser",
     "winner": "Draw",
@@ -211,7 +211,7 @@
   },
   {
     "title": "Adi Galia VS General Grievous",
-    "battler": "Adi Galia",
+    "duelist": "Adi Galia",
     "versus": "General Grievous",
     "location": "Separatist Cruiser",
     "winner": "General Grievous",
@@ -221,7 +221,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Saleucami",
     "winner": "Draw",
@@ -231,7 +231,7 @@
   },
   {
     "title": "Tera Sinube VS Cassie Cryar",
-    "battler": "Tera Sinube",
+    "duelist": "Tera Sinube",
     "versus": "Cassie Cryar",
     "location": "Coruscant",
     "winner": "Tera Sinube",
@@ -241,7 +241,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS Pre Vizsla",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Pre Vizsla",
     "location": "Concordia",
     "winner": "Obi-Wan Kenobi",
@@ -251,7 +251,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Kamino",
     "winner": "Draw",
@@ -261,7 +261,7 @@
   },
   {
     "title": "Anakin Skywalker VS Asajj Ventress",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Asajj Ventress",
     "location": "Kamino",
     "winner": "Draw",
@@ -271,7 +271,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS Cad Bane",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Cad Bane",
     "location": "Teth",
     "winner": "Draw",
@@ -281,7 +281,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Asajj Ventress",
     "location": "Separatist Cruiser",
     "winner": "Anakin Skywalker",
@@ -291,7 +291,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Asajj Ventress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Asajj Ventress",
     "location": "Separatist Cruiser",
     "winner": "Obi-Wan Kenobi",
@@ -301,7 +301,7 @@
   },
   {
     "title": "Asajj Ventress and 2 Nightsisters VS Count Dooku",
-    "battler": "Asajj Ventress",
+    "duelist": "Asajj Ventress",
     "versus": "Count Dooku",
     "location": "Serrano",
     "winner": "Draw",
@@ -311,7 +311,7 @@
   },
   {
     "title": "Asajj Ventress and 2 Nightsisters VS Count Dooku",
-    "battler": "2 Nightsisters",
+    "duelist": "2 Nightsisters",
     "versus": "Count Dooku",
     "location": "Serrano",
     "winner": "Draw",
@@ -321,7 +321,7 @@
   },
   {
     "title": "Asajj Ventress and Savage Opress VS Count Dooku",
-    "battler": "Asajj Ventress",
+    "duelist": "Asajj Ventress",
     "versus": "Count Dooku",
     "location": "Separatist ship above Toydaria",
     "winner": "Count Dooku",
@@ -331,7 +331,7 @@
   },
   {
     "title": "Asajj Ventress and Savage Opress VS Count Dooku",
-    "battler": "Savage Opress",
+    "duelist": "Savage Opress",
     "versus": "Count Dooku",
     "location": "Separatist ship above Toydaria",
     "winner": "Count Dooku",
@@ -341,7 +341,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Savage Opress",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Savage Opress",
     "location": "Toydaria",
     "winner": "Draw",
@@ -351,7 +351,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Savage Opress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Savage Opress",
     "location": "Toydaria",
     "winner": "Draw",
@@ -361,7 +361,7 @@
   },
   {
     "title": "Anakin Skywalker VS Ahsoka Tano (Possessed)",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Ahsoka Tano",
     "location": "Mortis",
     "winner": "Draw",
@@ -371,7 +371,7 @@
   },
   {
     "title": "Anakin Skywalker VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Naboo",
     "winner": "Count Dooku",
@@ -381,7 +381,7 @@
   },
   {
     "title": "Anakin Skywalker VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Zygerria",
     "winner": "Count Dooku",
@@ -391,7 +391,7 @@
   },
   {
     "title": "Ahsoka Tano VS Pre Vizsla",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Pre Vizsla",
     "location": "Carlac",
     "winner": "Draw",
@@ -401,7 +401,7 @@
   },
   {
     "title": "Anakin Skywalker VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Naboo",
     "winner": "Draw",
@@ -411,7 +411,7 @@
   },
   {
     "title": "Asajj Ventress VS General Grievous",
-    "battler": "Asajj Ventress",
+    "duelist": "Asajj Ventress",
     "versus": "General Grievous",
     "location": "Dathomir",
     "winner": "Draw",
@@ -421,7 +421,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Darth Maul",
     "location": "Goji-DF",
     "winner": "Draw",
@@ -431,7 +431,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Savage Opress",
     "location": "Goji-DF",
     "winner": "Draw",
@@ -441,7 +441,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
-    "battler": "Asajj Ventress",
+    "duelist": "Asajj Ventress",
     "versus": "Darth Maul",
     "location": "Goji-DF",
     "winner": "Draw",
@@ -451,7 +451,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Asajj Ventress VS Darth Maul and Savage Opress",
-    "battler": "Asajj Ventress",
+    "duelist": "Asajj Ventress",
     "versus": "Savage Opress",
     "location": "Goji-DF",
     "winner": "Draw",
@@ -461,7 +461,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Separatist Ship",
     "winner": "Draw",
@@ -471,7 +471,7 @@
   },
   {
     "title": "Ahsoka Tano VS General Grievous",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "General Grievous",
     "location": "Florrum",
     "winner": "Draw",
@@ -481,7 +481,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Darth Maul",
     "location": "Florrum",
     "winner": "Draw",
@@ -491,7 +491,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Savage Opress",
     "location": "Florrum",
     "winner": "Obi-Wan Kenobi",
@@ -501,7 +501,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
-    "battler": "Adi Gallia",
+    "duelist": "Adi Gallia",
     "versus": "Darth Maul",
     "location": "Florrum",
     "winner": "Darth Maul",
@@ -511,7 +511,7 @@
   },
   {
     "title": "Obi-Wan Kenobi and Adi Gallia VS Darth Maul and Savage Opress",
-    "battler": "Adi Gallia",
+    "duelist": "Adi Gallia",
     "versus": "Savage Opress",
     "location": "Florrum",
     "winner": "Savage Opress",
@@ -521,7 +521,7 @@
   },
   {
     "title": "Pre Vizsla VS Darth Maul",
-    "battler": "Pre Vizsla",
+    "duelist": "Pre Vizsla",
     "versus": "Darth Maul",
     "location": "Mandalore",
     "winner": "Darth Maul",
@@ -531,7 +531,7 @@
   },
   {
     "title": "Darth Maul and Savage Opress VS Darth Sidious",
-    "battler": "Darth Maul",
+    "duelist": "Darth Maul",
     "versus": "Darth Sidious",
     "location": "Mandalore",
     "winner": "Darth Sidious",
@@ -541,7 +541,7 @@
   },
   {
     "title": "Darth Maul and Savage Opress VS Darth Sidious",
-    "battler": "Savage Opress",
+    "duelist": "Savage Opress",
     "versus": "Darth Sidious",
     "location": "Mandalore",
     "winner": "Darth Sidious",
@@ -551,7 +551,7 @@
   },
   {
     "title": "Ahsoka Tano VS Barriss Offee (Disguised)",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Barriss Offee",
     "location": "Coruscant",
     "winner": "Ahsoka Tano",
@@ -561,7 +561,7 @@
   },
   {
     "title": "Anakin Skywalker VS Barriss Offee",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Barriss Offee",
     "location": "Jedi Temple",
     "winner": "Anakin Skywalker",
@@ -571,7 +571,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Oba Diah",
     "winner": "Count Dooku",
@@ -581,7 +581,7 @@
   },
   {
     "title": "Anakin Skywalker and Obi-Wan Kenobi VS Count Dooku",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Count Dooku",
     "location": "Oba Diah",
     "winner": "Count Dooku",
@@ -591,7 +591,7 @@
   },
   {
     "title": "Yoda and Anakin Skywalker VS Darth Sidious",
-    "battler": "Yoda",
+    "duelist": "Yoda",
     "versus": "Darth Sidious",
     "location": "Force Vision",
     "winner": "Draw",
@@ -601,7 +601,7 @@
   },
   {
     "title": "Yoda and Anakin Skywalker VS Darth Sidious",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Darth Sidious",
     "location": "Force Vision",
     "winner": "Darth Sidious",
@@ -611,7 +611,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Utapau",
     "winner": "Draw",
@@ -621,7 +621,7 @@
   },
   {
     "title": "Anakin Skywalker VS Count Dooku",
-    "battler": "Anakin Skywalker",
+    "duelist": "Anakin Skywalker",
     "versus": "Count Dooku",
     "location": "Invisible Hand",
     "winner": "Anakin Skywalker",
@@ -631,7 +631,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS Count Dooku",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Count Dooku",
     "location": "Invisible Hand",
     "winner": "Count Dooku",
@@ -641,7 +641,7 @@
   },
   {
     "title": "Ahsoka Tano VS Darth Maul",
-    "battler": "Ahsoka Tano",
+    "duelist": "Ahsoka Tano",
     "versus": "Darth Maul",
     "location": "Mandalore",
     "winner": "Ahsoka Tano",
@@ -651,7 +651,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS General Grievous",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "General Grievous",
     "location": "Utapau",
     "winner": "Obi-Wan Kenobi",
@@ -661,7 +661,7 @@
   },
   {
     "title": "Mace Windu and Kit Fisto VS Darth Sidious",
-    "battler": "Mace Windu",
+    "duelist": "Mace Windu",
     "versus": "Darth Sidious",
     "location": "Chancellor’s Office",
     "winner": "Darth Sidious",
@@ -671,7 +671,7 @@
   },
   {
     "title": "Mace Windu and Kit Fisto VS Darth Sidious",
-    "battler": "Kit Fisto",
+    "duelist": "Kit Fisto",
     "versus": "Darth Sidious",
     "location": "Chancellor’s Office",
     "winner": "Darth Sidious",
@@ -681,7 +681,7 @@
   },
   {
     "title": "Yoda VS Darth Sidious",
-    "battler": "Yoda",
+    "duelist": "Yoda",
     "versus": "Darth Sidious",
     "location": "Senate Chambers",
     "winner": "Darth Sidious",
@@ -691,7 +691,7 @@
   },
   {
     "title": "Obi-Wan Kenobi VS Anakin Skywalker (Darth Vader)",
-    "battler": "Obi-Wan Kenobi",
+    "duelist": "Obi-Wan Kenobi",
     "versus": "Anakin Skywalker",
     "location": "Mustafar",
     "winner": "Obi-Wan Kenobi",
