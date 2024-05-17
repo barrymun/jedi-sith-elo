@@ -7,6 +7,7 @@ import (
 	"log"
 	"math"
 	"os"
+	"sort"
 )
 
 // Jedi represents a participant in the rating system
@@ -117,8 +118,19 @@ func main() {
 		UpdateRatings(jedis, duel)
 	}
 
-	// Print the updated ratings
+	// Convert map to slice for sorting
+	jediList := make([]*Jedi, 0, len(jedis))
 	for _, jedi := range jedis {
+		jediList = append(jediList, jedi)
+	}
+
+	// Sort the Jedi/Sith by rating in descending order
+	sort.Slice(jediList, func(i, j int) bool {
+		return jediList[i].Rating > jediList[j].Rating
+	})
+
+	// Print the sorted ratings
+	for _, jedi := range jediList {
 		fmt.Printf("%s: %.2f\n", jedi.Name, jedi.Rating)
 	}
 }
