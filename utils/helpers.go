@@ -7,12 +7,12 @@ import (
 	"os"
 )
 
-// CalculateExpectedScore calculates the expected score for a participant
+// calculateExpectedScore calculates the expected score for a participant
 func CalculateExpectedScore(ratingA, ratingB float64) float64 {
 	return 1 / (1 + math.Pow(10, (ratingB-ratingA)/400))
 }
 
-// Helper function to check if a slice contains a string
+// check if a slice contains a string
 func Contains(slice []string, item string) bool {
 	for _, v := range slice {
 		if v == item {
@@ -22,7 +22,7 @@ func Contains(slice []string, item string) bool {
 	return false
 }
 
-// Get unique names from the duels
+// get unique names from the duels
 func GetUniqueNames(duels []Duel) []string {
 	nameSet := make(map[string]struct{})
 	for _, duel := range duels {
@@ -40,7 +40,7 @@ func GetUniqueNames(duels []Duel) []string {
 	return names
 }
 
-// Load duels from a JSON file
+// load duels from a JSON file
 func LoadDuels(filename string) ([]Duel, error) {
 	file, err := os.Open(filename)
 	if err != nil {
@@ -62,15 +62,16 @@ func LoadDuels(filename string) ([]Duel, error) {
 	return duels, nil
 }
 
-// UpdateRatings updates the ratings of two participants after a duel
-func UpdateRatings(jedis map[string]*Jedi, duel Duel) {
-	duelist := jedis[duel.Duelist]
-	versus := jedis[duel.Versus]
+// updates the ratings of two participants after a duel
+func UpdateRatings(duelists map[string]*Duelist, duel Duel) {
+	duelist := duelists[duel.Duelist]
+	versus := duelists[duel.Versus]
 
 	expectedScoreDuelist := CalculateExpectedScore(duelist.Rating, versus.Rating)
 	expectedScoreVersus := CalculateExpectedScore(versus.Rating, duelist.Rating)
 
-	// If it's a single duel
+	// handle single duel
+	// draw does not result in rating change for either participant in a single duel
 	if !duel.IsMulti {
 		if duel.Winner == duelist.Name {
 			duelist.Rating += K * (1 - expectedScoreDuelist)
@@ -82,7 +83,7 @@ func UpdateRatings(jedis map[string]*Jedi, duel Duel) {
 		return
 	}
 
-	// Multi duel adjustments
+	// handle multi duel
 	if duel.Winner == duelist.Name {
 		if Contains(duel.MultiDuelists, duelist.Name) {
 			duelist.Rating += K * (1 - expectedScoreDuelist) * 0.75
@@ -99,7 +100,11 @@ func UpdateRatings(jedis map[string]*Jedi, duel Duel) {
 			versus.Rating += K * (1 - expectedScoreVersus) * 1.25
 			duelist.Rating += K * (0 - expectedScoreDuelist) * 0.75
 		}
-	} else { // Draw
+	} else {
+		// handle draw
+		// rating change is 10% of the normal rating change
+		// if a single participant is in the multi duel, they get a 10% bonus rating change
+		// for a draw, and the other participant gets a 10% penalty
 		if Contains(duel.MultiDuelists, duelist.Name) {
 			duelist.Rating -= K * 0.1
 		} else {

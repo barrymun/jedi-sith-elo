@@ -1,7 +1,8 @@
 package utils
 
-// Jedi represents a participant in the rating system
-type Jedi struct {
+// Duelist represents a participant in the rating system
+// can be a Jedi or Sith
+type Duelist struct {
 	Name   string
 	Rating float64
 }

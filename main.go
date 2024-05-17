@@ -9,39 +9,36 @@ import (
 )
 
 func main() {
-	// Load duels from data.json
+	// load duels from data.json
 	duels, err := utils.LoadDuels("data.json")
 	if err != nil {
 		log.Fatalf("Failed to load duels: %v", err)
 	}
 
-	// Get unique names from duels
-	jediNames := utils.GetUniqueNames(duels)
+	duelistNames := utils.GetUniqueNames(duels)
 
-	// Initialize Jedi/Sith map with starting ratings
-	jedis := make(map[string]*utils.Jedi)
-	for _, name := range jediNames {
-		jedis[name] = &utils.Jedi{Name: name, Rating: 1000}
+	// initialize Jedi/Sith map with starting ratings
+	duelists := make(map[string]*utils.Duelist)
+	for _, name := range duelistNames {
+		duelists[name] = &utils.Duelist{Name: name, Rating: 1000}
 	}
 
-	// Update ratings based on duels
 	for _, duel := range duels {
-		utils.UpdateRatings(jedis, duel)
+		utils.UpdateRatings(duelists, duel)
 	}
 
-	// Convert map to slice for sorting
-	jediList := make([]*utils.Jedi, 0, len(jedis))
-	for _, jedi := range jedis {
-		jediList = append(jediList, jedi)
+	// prepare for sorting
+	duelistList := make([]*utils.Duelist, 0, len(duelists))
+	for _, duelist := range duelists {
+		duelistList = append(duelistList, duelist)
 	}
 
-	// Sort the Jedi/Sith by rating in descending order
-	sort.Slice(jediList, func(i, j int) bool {
-		return jediList[i].Rating > jediList[j].Rating
+	// sort in descending order
+	sort.Slice(duelistList, func(i, j int) bool {
+		return duelistList[i].Rating > duelistList[j].Rating
 	})
 
-	// Print the sorted ratings
-	for _, jedi := range jediList {
-		fmt.Printf("%s: %.2f\n", jedi.Name, jedi.Rating)
+	for _, duelist := range duelistList {
+		fmt.Printf("%s: %.2f\n", duelist.Name, duelist.Rating)
 	}
 }
