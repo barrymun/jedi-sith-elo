@@ -67,16 +67,16 @@ func UpdateRatings(jedis map[string]*Jedi, duel Duel) {
 	duelist := jedis[duel.Duelist]
 	versus := jedis[duel.Versus]
 
-	expectedScoreBattler := CalculateExpectedScore(duelist.Rating, versus.Rating)
+	expectedScoreDuelist := CalculateExpectedScore(duelist.Rating, versus.Rating)
 	expectedScoreVersus := CalculateExpectedScore(versus.Rating, duelist.Rating)
 
 	// If it's a single duel
 	if !duel.IsMulti {
 		if duel.Winner == duelist.Name {
-			duelist.Rating += K * (1 - expectedScoreBattler)
+			duelist.Rating += K * (1 - expectedScoreDuelist)
 			versus.Rating += K * (0 - expectedScoreVersus)
 		} else if duel.Winner == versus.Name {
-			duelist.Rating += K * (0 - expectedScoreBattler)
+			duelist.Rating += K * (0 - expectedScoreDuelist)
 			versus.Rating += K * (1 - expectedScoreVersus)
 		}
 		return
@@ -85,19 +85,19 @@ func UpdateRatings(jedis map[string]*Jedi, duel Duel) {
 	// Multi duel adjustments
 	if duel.Winner == duelist.Name {
 		if Contains(duel.MultiDuelists, duelist.Name) {
-			duelist.Rating += K * (1 - expectedScoreBattler) * 0.75
+			duelist.Rating += K * (1 - expectedScoreDuelist) * 0.75
 			versus.Rating += K * (0 - expectedScoreVersus) * 1.25
 		} else {
-			duelist.Rating += K * (1 - expectedScoreBattler) * 1.25
+			duelist.Rating += K * (1 - expectedScoreDuelist) * 1.25
 			versus.Rating += K * (0 - expectedScoreVersus) * 0.75
 		}
 	} else if duel.Winner == versus.Name {
 		if Contains(duel.MultiDuelists, versus.Name) {
 			versus.Rating += K * (1 - expectedScoreVersus) * 0.75
-			duelist.Rating += K * (0 - expectedScoreBattler) * 1.25
+			duelist.Rating += K * (0 - expectedScoreDuelist) * 1.25
 		} else {
 			versus.Rating += K * (1 - expectedScoreVersus) * 1.25
-			duelist.Rating += K * (0 - expectedScoreBattler) * 0.75
+			duelist.Rating += K * (0 - expectedScoreDuelist) * 0.75
 		}
 	} else { // Draw
 		if Contains(duel.MultiDuelists, duelist.Name) {
