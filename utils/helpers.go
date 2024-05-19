@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-// calculateExpectedScore calculates the expected score for a participant
+// calculates the expected score for a duelist
 func CalculateExpectedScore(ratingA, ratingB float64) float64 {
 	return 1 / (1 + math.Pow(10, (ratingB-ratingA)/400))
 }

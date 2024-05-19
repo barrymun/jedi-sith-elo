@@ -37,6 +37,14 @@ A screenshot of the results:
 
 ![results](screenshots/results.png)
 
+## Testing
+
+Run all tests (including tests in subdirectories):
+
+```bash
+make test
+```
+
 ## Acknowledgements
 
 A big thanks to [u/Disciplined2021](https://www.reddit.com/user/Disciplined2021/) for the initial work compiling the list of duels and results.

@@ -1,0 +1,3 @@
+test:
+	@echo "Running tests recursively..."
+	go test ./...
